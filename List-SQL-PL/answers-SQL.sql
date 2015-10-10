@@ -13,3 +13,8 @@ where
 -- 2
 -- status: pending
 SELECT COUNT(*) FROM embarcacoes WHERE capacidade_carga BETWEEN 50.000 AND 100.000 GROUP BY tipo;
+
+-- 4
+-- status: pending
+CREATE USER novo_usuario IDENTIFIED BY quero_passar_direto;
+GRANT SELECT ON funcionarios TO novo_usuario;
