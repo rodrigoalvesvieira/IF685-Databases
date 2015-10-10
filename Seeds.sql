@@ -81,26 +81,26 @@ insert into telefones_funcionarios (funcionario_cpf, fone) values ('13574644097'
 insert into telefones_funcionarios (funcionario_cpf, fone) values ('92496388053', '00-212047640');
 
 /* enderecos_funcionarios */
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('37608581276', 24002419, 'Rua Amaro Gomes Poroca, 91, Várzea');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('15302830862', 47146819, 'Av. Agamenon Magalhães, 1000, Santo Amaro');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('92496388053', 21162509, '190 Main Street West Salt Lake City, UT 84119');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('12060045245', 40037681, '474 Fieldstone Drive Olive Branch, MS 38654');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('13574644097', 28554775, '626 Brandywine Drive Middleburg, FL 32068');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('92346383395', 21147608, '309 Highland Drive Fairburn, GA 30213');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('68788809434', 24931142, '266 School Street Fenton, MI 48430');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('89851302606', 19687243, '505 Virginia Avenue yattsville, MD 20782');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('04910256448', 40984189, '508 Cambridge Road Mount Prospect, IL 60056');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('79859148466', 48939700, '121 New Street Champlin, MN 55316');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('77206501260', 15676650, '225 Sycamore Drive Phillipsburg, NJ 08865');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('44160467456', 58569663, '441 Park Avenue Omaha, NE 68107');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('10705340017', 20749684, '704 Hawthorne Lane Parkville, MD 21234');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('28328322904', 31103687, '107 Cypress Court Ladson, SC 29456');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('16629828403', 41382473, '407 1st Avenue Wasilla, AK 99654');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('14400581772', 16239833, '971 Laurel Drive District Heights, MD 20747');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('55223845862', 28887159, '86 Cleveland Avenue Uniondale, NY 11553');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('25104679287', 47335459, '17 Amherst Street Glen Allen, VA 23059');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('09677549050', 31119034, '558 Beechwood Drive Newtown, PA 18940');
-insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('48671138077', 49272302, '426 Marshall Street Rocky Mount, NC 27804');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('37608581276', '24002419', 'Rua Amaro Gomes Poroca, 91, Várzea');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('15302830862', '47146819', 'Av. Agamenon Magalhães, 1000, Santo Amaro');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('92496388053', '21162509', '190 Main Street West Salt Lake City, UT 84119');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('12060045245', '40037681', '474 Fieldstone Drive Olive Branch, MS 38654');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('13574644097', '28554775', '626 Brandywine Drive Middleburg, FL 32068');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('92346383395', '21147608', '309 Highland Drive Fairburn, GA 30213');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('68788809434', '24931142', '266 School Street Fenton, MI 48430');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('89851302606', '19687243', '505 Virginia Avenue yattsville, MD 20782');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('04910256448', '40984189', '508 Cambridge Road Mount Prospect, IL 60056');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('79859148466', '48939700', '121 New Street Champlin, MN 55316');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('77206501260', '15676650', '225 Sycamore Drive Phillipsburg, NJ 08865');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('44160467456', '58569663', '441 Park Avenue Omaha, NE 68107');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('10705340017', '20749684', '704 Hawthorne Lane Parkville, MD 21234');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('28328322904', '31103687', '107 Cypress Court Ladson, SC 29456');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('16629828403', '41382473', '407 1st Avenue Wasilla, AK 99654');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('14400581772', '16239833', '971 Laurel Drive District Heights, MD 20747');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('55223845862', '28887159', '86 Cleveland Avenue Uniondale, NY 11553');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('25104679287', '47335459', '17 Amherst Street Glen Allen, VA 23059');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('09677549050', '31119034', '558 Beechwood Drive Newtown, PA 18940');
+insert into enderecos_funcionarios (funcionario_cpf, cep, descricao) values ('48671138077', '49272302', '426 Marshall Street Rocky Mount, NC 27804');
 
 /* setores */
 
@@ -143,19 +143,19 @@ insert into projetos (id, nome, descricao, orcamento, data_inicio, data_previsao
 
 /* projetos_criacoes */
 
-insert into projetos_criacoes (id, modelagem) values (1, 'YpC90tTIc');
-insert into projetos_criacoes (id, modelagem) values (2, 'vJo5TaA4dl');
-insert into projetos_criacoes (id, modelagem) values (3, 'sUDQ5g');
-insert into projetos_criacoes (id, modelagem) values (4, 'CiDt8DyCa');
-insert into projetos_criacoes (id, modelagem) values (5, 'W5W32rDu');
+insert into projetos_criacoes (id_projeto, modelagem) values (1, 'YpC90tTIc');
+insert into projetos_criacoes (id_projeto, modelagem) values (2, 'vJo5TaA4dl');
+insert into projetos_criacoes (id_projeto, modelagem) values (3, 'sUDQ5g');
+insert into projetos_criacoes (id_projeto, modelagem) values (4, 'CiDt8DyCa');
+insert into projetos_criacoes (id_projeto, modelagem) values (5, 'W5W32rDu');
 
 /* projetos_restauracoes */
 
-insert into projetos_restauracoes (id, partes_reutilizadas , partes_descartadas ) values (6, 6, 6);
-insert into projetos_restauracoes (id, partes_reutilizadas , partes_descartadas ) values (7, 7, 7);
-insert into projetos_restauracoes (id, partes_reutilizadas , partes_descartadas ) values (8, 8, 8);
-insert into projetos_restauracoes (id, partes_reutilizadas , partes_descartadas ) values (9, 9, 9);
-insert into projetos_restauracoes (id, partes_reutilizadas , partes_descartadas ) values (10, 10, 10);
+insert into projetos_restauracoes (id_projeto, partes_reutilizadas , partes_descartadas ) values (6, 6, 6);
+insert into projetos_restauracoes (id_projeto, partes_reutilizadas , partes_descartadas ) values (7, 7, 7);
+insert into projetos_restauracoes (id_projeto, partes_reutilizadas , partes_descartadas ) values (8, 8, 8);
+insert into projetos_restauracoes (id_projeto, partes_reutilizadas , partes_descartadas ) values (9, 9, 9);
+insert into projetos_restauracoes (id_projeto, partes_reutilizadas , partes_descartadas ) values (10, 10, 10);
 
 /* execucoes_projetos */
 insert into execucoes_projetos (setor_id, projeto_id) values (1, 1);
@@ -181,177 +181,177 @@ insert into execucoes_projetos (setor_id, projeto_id) values (10, 10);
 
 /* clientes */
 
-insert into clientes (cnpj, nome_empresa, email, site) values (32771001010862, 'Petrobras S.A', 'jmendoza0@petrobras.com.br', 'petrobras.com.br');
-insert into clientes (cnpj, nome_empresa, email, site) values (74023615300569, 'Maersk', 'jparker1@maersk.com', 'maersk.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (35480432803963, 'Shell', 'aruiz2@shell.com', 'shell.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (40824079424045, 'Texaco', 'swebb3@texaco.com', 'texaco.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (50997772767181, 'Hamburg Süd', 'jwilliamson4@usgs.gov', 'oaic.gov.au');
-insert into clientes (cnpj, nome_empresa, email, site) values (61841660367260, 'Vale', 'jcunningham5@vale.com', 'vale.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (49991270192798, 'Esso', 'jmartin6@esso.com', 'esso.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (77016702913997, 'Samarco', 'alawrence7@samarco.com.br', 'samarco.com.br');
-insert into clientes (cnpj, nome_empresa, email, site) values (14010782046701, 'General Motors', 'chawkins8@gm.com', 'gm.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (94405974919694, 'Alunorte', 'cferguson9@alunorte.com.br', 'alunorte.com.br');
-insert into clientes (cnpj, nome_empresa, email, site) values (91913832268294, 'Namisa', 'ebrooksa@namisa.com.br', 'namisa.com.br');
-insert into clientes (cnpj, nome_empresa, email, site) values (57290869110659, 'Alcoa', 'ngreenb@alcoa.com', 'alcoa.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (26990196975153, 'Mitsubishi', 'esanchezc@mitsubishi.com', 'mitsubishi.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (94395785501995, 'Rio Tinto', 'dcunninghamd@riotinto.com', 'riotinto.com');
-insert into clientes (cnpj, nome_empresa, email, site) values (46168389687831, 'BHP Billiton', 'rwarde@bhpbilliton.com', 'bhpbilliton.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('32771001010862', 'Petrobras S.A', 'jmendoza0@petrobras.com.br', 'petrobras.com.br');
+insert into clientes (cnpj, nome_empresa, email, site) values ('74023615300569', 'Maersk', 'jparker1@maersk.com', 'maersk.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('35480432803963', 'Shell', 'aruiz2@shell.com', 'shell.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('40824079424045', 'Texaco', 'swebb3@texaco.com', 'texaco.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('50997772767181', 'Hamburg Süd', 'jwilliamson4@usgs.gov', 'oaic.gov.au');
+insert into clientes (cnpj, nome_empresa, email, site) values ('61841660367260', 'Vale', 'jcunningham5@vale.com', 'vale.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('49991270192798', 'Esso', 'jmartin6@esso.com', 'esso.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('77016702913997', 'Samarco', 'alawrence7@samarco.com.br', 'samarco.com.br');
+insert into clientes (cnpj, nome_empresa, email, site) values ('14010782046701', 'General Motors', 'chawkins8@gm.com', 'gm.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('94405974919694', 'Alunorte', 'cferguson9@alunorte.com.br', 'alunorte.com.br');
+insert into clientes (cnpj, nome_empresa, email, site) values ('91913832268294', 'Namisa', 'ebrooksa@namisa.com.br', 'namisa.com.br');
+insert into clientes (cnpj, nome_empresa, email, site) values ('57290869110659', 'Alcoa', 'ngreenb@alcoa.com', 'alcoa.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('26990196975153', 'Mitsubishi', 'esanchezc@mitsubishi.com', 'mitsubishi.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('94395785501995', 'Rio Tinto', 'dcunninghamd@riotinto.com', 'riotinto.com');
+insert into clientes (cnpj, nome_empresa, email, site) values ('46168389687831', 'BHP Billiton', 'rwarde@bhpbilliton.com', 'bhpbilliton.com');
 
 /* representantes */
 
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (32771001010862, 38349206880, 'Roy Hudson');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (74023615300569, 18760215941, 'Bobby Stephens');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (35480432803963, 38249379735, 'Jonathan Brooks');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (40824079424045, 45463712243, 'Paul Harris');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (50997772767181, 19709817248, 'Mark Brown');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (61841660367260, 18653207439, 'Jonathan Taylor');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (49991270192798, 12581666216, 'Eugene Stewart');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (77016702913997, 21417577784, 'Albert Stephens');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (14010782046701, 48869558051, 'Jimmy West');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (94405974919694, 13170275859, 'Heather Mendoza');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (91913832268294, 45765493189, 'Jose Carr');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (57290869110659, 15942326847, 'Jose Sims');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (26990196975153, 42455806504, 'Victor Flores');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (94395785501995, 44896261080, 'Jonathan Gomez');
-insert into representantes (empresa_cnpj, cpf_representante, nome) values (46168389687831, 38377052223, 'Philip Torres');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('32771001010862', '38349206880', 'Roy Hudson');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('74023615300569', '18760215941', 'Bobby Stephens');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('35480432803963', '38249379735', 'Jonathan Brooks');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('40824079424045', '45463712243', 'Paul Harris');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('50997772767181', '19709817248', 'Mark Brown');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('61841660367260', '18653207439', 'Jonathan Taylor');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('49991270192798', '12581666216', 'Eugene Stewart');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('77016702913997', '21417577784', 'Albert Stephens');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('14010782046701', '48869558051', 'Jimmy West');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('94405974919694', '13170275859', 'Heather Mendoza');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('91913832268294', '45765493189', 'Jose Carr');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('57290869110659', '15942326847', 'Jose Sims');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('26990196975153', '42455806504', 'Victor Flores');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('94395785501995', '44896261080', 'Jonathan Gomez');
+insert into representantes (empresa_cnpj, cpf_representante, nome) values ('46168389687831', '38377052223', 'Philip Torres');
 
 /* telefones_clientes */
 
-insert into telefones_clientes (cliente_cnpj, fone) values (32771001010862, 1097112736);
-insert into telefones_clientes (cliente_cnpj, fone) values (74023615300569, 1098522898);
-insert into telefones_clientes (cliente_cnpj, fone) values (35480432803963, 1099631901);
-insert into telefones_clientes (cliente_cnpj, fone) values (40824079424045, 1098326714);
-insert into telefones_clientes (cliente_cnpj, fone) values (50997772767181, 1099367308);
-insert into telefones_clientes (cliente_cnpj, fone) values (61841660367260, 1097878759);
-insert into telefones_clientes (cliente_cnpj, fone) values (49991270192798, 1098480548);
-insert into telefones_clientes (cliente_cnpj, fone) values (77016702913997, 1098503945);
-insert into telefones_clientes (cliente_cnpj, fone) values (14010782046701, 1099108026);
-insert into telefones_clientes (cliente_cnpj, fone) values (94405974919694, 1098424309);
-insert into telefones_clientes (cliente_cnpj, fone) values (91913832268294, 1097782276);
-insert into telefones_clientes (cliente_cnpj, fone) values (57290869110659, 1098610719);
-insert into telefones_clientes (cliente_cnpj, fone) values (26990196975153, 1097208407);
-insert into telefones_clientes (cliente_cnpj, fone) values (94395785501995, 1097195017);
-insert into telefones_clientes (cliente_cnpj, fone) values (46168389687831, 1099685226);
+insert into telefones_clientes (cliente_cnpj, fone) values ('32771001010862', '1097112736');
+insert into telefones_clientes (cliente_cnpj, fone) values ('74023615300569', '1098522898');
+insert into telefones_clientes (cliente_cnpj, fone) values ('35480432803963', '1099631901');
+insert into telefones_clientes (cliente_cnpj, fone) values ('40824079424045', '1098326714');
+insert into telefones_clientes (cliente_cnpj, fone) values ('50997772767181', '1099367308');
+insert into telefones_clientes (cliente_cnpj, fone) values ('61841660367260', '1097878759');
+insert into telefones_clientes (cliente_cnpj, fone) values ('49991270192798', '1098480548');
+insert into telefones_clientes (cliente_cnpj, fone) values ('77016702913997', '1098503945');
+insert into telefones_clientes (cliente_cnpj, fone) values ('14010782046701', '1099108026');
+insert into telefones_clientes (cliente_cnpj, fone) values ('94405974919694', '1098424309');
+insert into telefones_clientes (cliente_cnpj, fone) values ('91913832268294', '1097782276');
+insert into telefones_clientes (cliente_cnpj, fone) values ('57290869110659', '1098610719');
+insert into telefones_clientes (cliente_cnpj, fone) values ('26990196975153', '1097208407');
+insert into telefones_clientes (cliente_cnpj, fone) values ('94395785501995', '1097195017');
+insert into telefones_clientes (cliente_cnpj, fone) values ('46168389687831', '1099685226');
 
 /* enderecos_clientes */
 
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (32771001010862, 46359768, '579 Oak Lane Parlin, NJ 08859.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (74023615300569, 38372503, '878 8th Avenue Lake In The Hills, IL 60156.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (35480432803963, 34311823, '340 Somerset Drive Woodstock, GA 30188.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (40824079424045, 14956210, '948 William Street Barberton, OH 44203.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (50997772767181, 43483725, '457 Route 2 Griffin, GA 30223.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (61841660367260, 14576247, '522 Columbia Street Peachtree City, GA 30269.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (49991270192798, 48415503, '804 Oak Street Silver Spring, MD 20901.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (77016702913997, 55153968, '872 Bridge Street Oceanside, NY 11572.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (14010782046701, 14826814, '434 Hickory Street Thibodaux, LA 70301.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (94405974919694, 28473617, '411 Arlington Avenue Hackensack, NJ 07601.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (91913832268294, 23573257, '848 Colonial Drive Peabody, MA 01960.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (57290869110659, 24488350, '201 Bayberry Drive Rosemount, MN 55068.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (26990196975153, 39413836, '360 Central Avenue Olive Branch, MS 38654.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (94395785501995, 59547171, '901 Oak Street Natchez, MS 39120.');
-insert into enderecos_clientes (cliente_cnpj, cep, descricao) values (46168389687831, 59727291, '194 Park Street Belmont, MA 02478.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('32771001010862', '46359768', '579 Oak Lane Parlin, NJ 08859.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('74023615300569', '38372503', '878 8th Avenue Lake In The Hills, IL 60156.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('35480432803963', '34311823', '340 Somerset Drive Woodstock, GA 30188.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('40824079424045', '14956210', '948 William Street Barberton, OH 44203.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('50997772767181', '43483725', '457 Route 2 Griffin, GA 30223.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('61841660367260', '14576247', '522 Columbia Street Peachtree City, GA 30269.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('49991270192798', '48415503', '804 Oak Street Silver Spring, MD 20901.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('77016702913997', '55153968', '872 Bridge Street Oceanside, NY 11572.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('14010782046701', '14826814', '434 Hickory Street Thibodaux, LA 70301.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('94405974919694', '28473617', '411 Arlington Avenue Hackensack, NJ 07601.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('91913832268294', '23573257', '848 Colonial Drive Peabody, MA 01960.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('57290869110659', '24488350', '201 Bayberry Drive Rosemount, MN 55068.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('26990196975153', '39413836', '360 Central Avenue Olive Branch, MS 38654.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('94395785501995', '59547171', '901 Oak Street Natchez, MS 39120.');
+insert into enderecos_clientes (cliente_cnpj, cep, descricao) values ('46168389687831', '59727291', '194 Park Street Belmont, MA 02478.');
 
 /* embarcacoes */
 
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (6686256566744014, 'CONTEINEIRO', TO_DATE('23/06/2001','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (3483008998238951, 'CONTEINEIRO', TO_DATE('13/07/1952','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (1858278084503792, 'CONTEINEIRO', TO_DATE('08/01/1983','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (2058105563559733, 'CONTEINEIRO', TO_DATE('16/02/1974','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (3010386456443800, 'CONTEINEIRO', TO_DATE('06/10/1988','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (6894233464033459, 'GASEIRO', TO_DATE('08/07/2006','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (3977665514774184, 'GASEIRO', TO_DATE('07/07/1994','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (4709306226415695, 'GASEIRO', TO_DATE('05/11/1967','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (7663040196268442, 'GASEIRO', TO_DATE('29/05/1962','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (7326302996717560, 'GASEIRO', TO_DATE('12/03/1963','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (1700151499882756, 'GASEIRO', TO_DATE('26/09/1997','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (5322937184789651, 'GASEIRO', TO_DATE('03/07/1959','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (1986326421419801, 'VLCC', TO_DATE('23/01/2011','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (5560728405647844, 'VLCC', TO_DATE('11/03/2015','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (8008944033340588, 'VLCC', TO_DATE('30/03/1962','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (7808994642283709, 'VLCC', TO_DATE('08/07/1971','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (4724698486648050, 'PETROLEIRO', TO_DATE('26/02/1999','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (7578314219866680, 'PETROLEIRO', TO_DATE('25/11/1980','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (4082223176847353, 'PETROLEIRO', TO_DATE('05/09/1997','dd/mm/yyyy'));
-insert into embarcacoes (certificado, tipo, data_fabricacao) values (1611889263988087, 'PETROLEIRO', TO_DATE('03/01/1955','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('6686256566744014', 'CONTEINEIRO', TO_DATE('23/06/2001','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('3483008998238951', 'CONTEINEIRO', TO_DATE('13/07/1952','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('1858278084503792', 'CONTEINEIRO', TO_DATE('08/01/1983','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('2058105563559733', 'CONTEINEIRO', TO_DATE('16/02/1974','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('3010386456443800', 'CONTEINEIRO', TO_DATE('06/10/1988','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('6894233464033459', 'GASEIRO', TO_DATE('08/07/2006','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('3977665514774184', 'GASEIRO', TO_DATE('07/07/1994','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('4709306226415695', 'GASEIRO', TO_DATE('05/11/1967','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('7663040196268442', 'GASEIRO', TO_DATE('29/05/1962','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('7326302996717560', 'GASEIRO', TO_DATE('12/03/1963','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('1700151499882756', 'GASEIRO', TO_DATE('26/09/1997','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('5322937184789651', 'GASEIRO', TO_DATE('03/07/1959','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('1986326421419801', 'VLCC', TO_DATE('23/01/2011','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('5560728405647844', 'VLCC', TO_DATE('11/03/2015','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('8008944033340588', 'VLCC', TO_DATE('30/03/1962','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('7808994642283709', 'VLCC', TO_DATE('08/07/1971','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('4724698486648050', 'PETROLEIRO', TO_DATE('26/02/1999','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('7578314219866680', 'PETROLEIRO', TO_DATE('25/11/1980','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('4082223176847353', 'PETROLEIRO', TO_DATE('05/09/1997','dd/mm/yyyy'));
+insert into embarcacoes (certificado, tipo, data_fabricacao) values ('1611889263988087', 'PETROLEIRO', TO_DATE('03/01/1955','dd/mm/yyyy'));
 
 /* especificacoes */
 
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (6686256566744014, 123.45, 400.000, 30.000, 20.000, 1000, 90.000);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (3483008998238951, 234.56, 450.000, 35.000, 25.000, 1250, 99.000);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (1858278084503792, 345.67, 500.000, 40.000, 50.000, 1500, 10.000);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (2058105563559733, 456.78, 350.000, 65.000, 75.000, 1750, 19.000);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (3010386456443800, 567.89, 750.000, 37.050, 27.120, 1980, 99.000);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (6894233464033459, 678.90, 234.024, 12.423, 23.242, 1412, 24.241);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (3977665514774184, 215.54, 238.575, 24.235, 86.535, 2355, 35.356);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (4709306226415695, 832.46, 233.844, 85.741, 86.112, 3431, 23.235);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (7663040196268442, 034.37, 647.355, 35.356, 37.245, 5236, 35.352);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (7326302996717560, 038.54, 462.644, 24.574, 43.463, 4363, 43.436);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (1700151499882756, 352.36, 263.362, 36.362, 75.436, 3346, 23.463);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (5322937184789651, 474.34, 346.463, 46.436, 86.553, 3525, 53.274);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (1986326421419801, 523.36, 532.246, 24.426, 76.584, 7435, 34.754);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (5560728405647844, 233.64, 653.352, 35.325, 64.754, 5246, 54.463);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (8008944033340588, 025.53, 054.633, 23.435, 46.456, 6436, 54.753);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (7808994642283709, 001.13, 326.361, 33.265, 23.235, 3575, 23.362);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (4724698486648050, 673.35, 732.462, 46.462, 44.426, 2532, 23.648);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (7578314219866680, 112.46, 325.972, 35.464, 34.863, 7334, 23.362);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (4082223176847353, 123.73, 111.222, 33.444, 55.666, 7777, 88.999);
-insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values (1611889263988087, 012.34, 420.420, 12.344, 56.788, 1337, 54.321);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('6686256566744014', 123.45, 400.000, 30.000, 20.000, 1000, 90.000);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('3483008998238951', 234.56, 450.000, 35.000, 25.000, 1250, 99.000);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('1858278084503792', 345.67, 500.000, 40.000, 50.000, 1500, 10.000);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('2058105563559733', 456.78, 350.000, 65.000, 75.000, 1750, 19.000);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('3010386456443800', 567.89, 750.000, 37.050, 27.120, 1980, 99.000);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('6894233464033459', 678.90, 234.024, 12.423, 23.242, 1412, 24.241);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('3977665514774184', 215.54, 238.575, 24.235, 86.535, 2355, 35.356);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('4709306226415695', 832.46, 233.844, 85.741, 86.112, 3431, 23.235);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('7663040196268442', 034.37, 647.355, 35.356, 37.245, 5236, 35.352);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('7326302996717560', 038.54, 462.644, 24.574, 43.463, 4363, 43.436);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('1700151499882756', 352.36, 263.362, 36.362, 75.436, 3346, 23.463);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('5322937184789651', 474.34, 346.463, 46.436, 86.553, 3525, 53.274);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('1986326421419801', 523.36, 532.246, 24.426, 76.584, 7435, 34.754);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('5560728405647844', 233.64, 653.352, 35.325, 64.754, 5246, 54.463);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('8008944033340588', 025.53, 054.633, 23.435, 46.456, 6436, 54.753);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('7808994642283709', 001.13, 326.361, 33.265, 23.235, 3575, 23.362);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('4724698486648050', 673.35, 732.462, 46.462, 44.426, 2532, 23.648);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('7578314219866680', 112.46, 325.972, 35.464, 34.863, 7334, 23.362);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('4082223176847353', 123.73, 111.222, 33.444, 55.666, 7777, 88.999);
+insert into especificacoes (certificado_embarcacao, versao, peso, comprimento, altura, capacidade_ocupantes, capacidade_carga) values ('1611889263988087', 012.34, 420.420, 12.344, 56.788, 1337, 54.321);
 
 /* equipamentos */
 
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (1, 'Máquina de Solda Compact', 'Solda', TO_DATE('26/12/1981','dd/mm/yyyy'), TO_DATE('20/04/1990','dd/mm/yyyy'), 1);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (2, 'Britadeira Black & Decker', 'Britadeira', TO_DATE('24/03/1956','dd/mm/yyyy'), TO_DATE('03/07/1978','dd/mm/yyyy'), 1);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (3, 'Furadeira Black & Decker', 'Furadeira', TO_DATE('31/03/1993','dd/mm/yyyy'), TO_DATE('26/09/2004','dd/mm/yyyy'), 1);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (4, 'Transformador de Solda', 'Solda', TO_DATE('29/12/1973','dd/mm/yyyy'), TO_DATE('01/01/1998','dd/mm/yyyy'), 2);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (5, 'Bomba Centrífuga', 'Bombeamento', TO_DATE('27/08/1985','dd/mm/yyyy'), TO_DATE('30/05/1988','dd/mm/yyyy'), 2);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (6, 'Bomba Auto-Escorvante', 'Bombeamento', TO_DATE('13/02/1988','dd/mm/yyyy'), TO_DATE('05/03/1994','dd/mm/yyyy'), 2);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (7, 'Maçarico a Gás Rothenberber', 'Maçarico', TO_DATE('06/09/1979','dd/mm/yyyy'), TO_DATE('16/02/1999','dd/mm/yyyy'), 3);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (8, 'Regulador cilíndrico de Solda', 'Solda', TO_DATE('26/10/1982','dd/mm/yyyy'), TO_DATE('15/04/1995','dd/mm/yyyy'), 3);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (9, 'Bomba de Água', 'Bombeamento', TO_DATE('16/02/1963','dd/mm/yyyy'), TO_DATE('25/11/1972','dd/mm/yyyy'), 3);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (10, 'Bomba Auto Espirante', 'Bombeamento', TO_DATE('28/12/1968','dd/mm/yyyy'), TO_DATE('05/07/1977','dd/mm/yyyy'), 4);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (11, 'Parafusadeira Maquita', 'Peça de Montagem', TO_DATE('16/09/1955','dd/mm/yyyy'), TO_DATE('18/05/1967','dd/mm/yyyy'), 4);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (12, 'Soprador Térmico', 'Máquina Térmica', TO_DATE('08/02/1963','dd/mm/yyyy'), TO_DATE('01/03/1972','dd/mm/yyyy'), 4);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (13, 'Compressor de Ar Monofásico', 'Compressor', TO_DATE('09/10/1954','dd/mm/yyyy'), TO_DATE('09/08/1965','dd/mm/yyyy'), 5);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (14, 'Esmerilhadeira Angular', 'Esmerilhadeira', TO_DATE('09/05/1969','dd/mm/yyyy'), TO_DATE('22/05/1989','dd/mm/yyyy'), 5);
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (1, 'Máquina de Solda Compact', 'Solda', TO_DATE('26/12/1981','dd/mm/yyyy'), TO_DATE('20/04/1990','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (2, 'Britadeira Black & Decker', 'Britadeira', TO_DATE('24/03/1956','dd/mm/yyyy'), TO_DATE('03/07/1978','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (3, 'Furadeira Black & Decker', 'Furadeira', TO_DATE('31/03/1993','dd/mm/yyyy'), TO_DATE('26/09/2004','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (4, 'Transformador de Solda', 'Solda', TO_DATE('29/12/1973','dd/mm/yyyy'), TO_DATE('01/01/1998','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (5, 'Bomba Centrífuga', 'Bombeamento', TO_DATE('27/08/1985','dd/mm/yyyy'), TO_DATE('30/05/1988','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (6, 'Bomba Auto-Escorvante', 'Bombeamento', TO_DATE('13/02/1988','dd/mm/yyyy'), TO_DATE('05/03/1994','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (7, 'Maçarico a Gás Rothenberber', 'Maçarico', TO_DATE('06/09/1979','dd/mm/yyyy'), TO_DATE('16/02/1999','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (8, 'Regulador cilíndrico de Solda', 'Solda', TO_DATE('26/10/1982','dd/mm/yyyy'), TO_DATE('15/04/1995','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (9, 'Bomba de Água', 'Bombeamento', TO_DATE('16/02/1963','dd/mm/yyyy'), TO_DATE('25/11/1972','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (10, 'Bomba Auto Espirante', 'Bombeamento', TO_DATE('28/12/1968','dd/mm/yyyy'), TO_DATE('05/07/1977','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (11, 'Parafusadeira Maquita', 'Peça de Montagem', TO_DATE('16/09/1955','dd/mm/yyyy'), TO_DATE('18/05/1967','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (12, 'Soprador Térmico', 'Máquina Térmica', TO_DATE('08/02/1963','dd/mm/yyyy'), TO_DATE('01/03/1972','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (13, 'Compressor de Ar Monofásico', 'Compressor', TO_DATE('09/10/1954','dd/mm/yyyy'), TO_DATE('09/08/1965','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (14, 'Esmerilhadeira Angular', 'Esmerilhadeira', TO_DATE('09/05/1969','dd/mm/yyyy'), TO_DATE('22/05/1989','dd/mm/yyyy'));
 
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (15, 'Fonte Inversora de Solda', 'WMI 140ED 220V BAMBOZZI', TO_DATE('22/06/1968','dd/mm/yyyy'), TO_DATE('25/01/1979','dd/mm/yyyy'), 5);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (16, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('26/01/2011','dd/mm/yyyy'), TO_DATE('20/08/2011','dd/mm/yyyy'), 6);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (17, 'Fonte Inversora de Solda', 'TIG DC 220V BALMER', TO_DATE('25/11/1950','dd/mm/yyyy'), TO_DATE('29/06/1969','dd/mm/yyyy'), 6);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (18, 'Fonte Inversora de Solda', 'Cabeçote 250A Trifásico', TO_DATE('16/08/1981','dd/mm/yyyy'), TO_DATE('28/05/1994','dd/mm/yyyy'), 6);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (19, 'Máquina de Solda', '150A 110V', TO_DATE('24/11/1979','dd/mm/yyyy'), TO_DATE('24/11/1998','dd/mm/yyyy'), 7);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (20, 'Máquina de Solda', 'MIG130 MIG/MAG0', TO_DATE('17/10/1970','dd/mm/yyyy'), TO_DATE('20/02/1984','dd/mm/yyyy'), 7);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (21, 'Máquina de Solda', '150A 220V WORKER-1002', TO_DATE('06/04/1999','dd/mm/yyyy'), TO_DATE('21/09/2002','dd/mm/yyyy'), 7);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (22, 'Máquina de Solda', '150A 220V WORKER-1548', TO_DATE('19/04/1965','dd/mm/yyyy'), TO_DATE('26/01/1975','dd/mm/yyyy'), 8);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (23, 'Regulador de Oxigênio', 'OMEGA-0250123456', TO_DATE('28/01/1952','dd/mm/yyyy'), TO_DATE('08/11/1974','dd/mm/yyyy'), 8;
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (24, 'Regulador de Oxigênio', 'OMEGA-0250910008', TO_DATE('22/11/1975','dd/mm/yyyy'), TO_DATE('08/03/1984','dd/mm/yyyy'), 8;
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (25, 'Regulador de Oxigênio', 'OHM-1203601708', TO_DATE('19/05/1994','dd/mm/yyyy'), TO_DATE('22/08/2015','dd/mm/yyyy'), 9);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (26, 'Regulador de Oxigênio', 'OHM-7548928874', TO_DATE('11/11/2004','dd/mm/yyyy'), TO_DATE('07/12/2010','dd/mm/yyyy'), 9);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (27, 'Máquina de Solda', 'MIG130 MIG/MAG', TO_DATE('10/02/1999','dd/mm/yyyy'), TO_DATE('13/12/2014','dd/mm/yyyy'), 9);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (28, 'Máquina de Solda', 'MIG130 MIG/MAG 220V', TO_DATE('29/08/1955','dd/mm/yyyy'), TO_DATE('07/01/1967','dd/mm/yyyy'), 10);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (29, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('05/04/1975','dd/mm/yyyy'), TO_DATE('06/07/1984','dd/mm/yyyy'), 10);
-insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino, setor_id) values (30, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('06/06/1982','dd/mm/yyyy'), TO_DATE('15/11/1993','dd/mm/yyyy'), 10);
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (15, 'Fonte Inversora de Solda', 'WMI 140ED 220V BAMBOZZI', TO_DATE('22/06/1968','dd/mm/yyyy'), TO_DATE('25/01/1979','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (16, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('26/01/2011','dd/mm/yyyy'), TO_DATE('20/08/2011','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (17, 'Fonte Inversora de Solda', 'TIG DC 220V BALMER', TO_DATE('25/11/1950','dd/mm/yyyy'), TO_DATE('29/06/1969','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (18, 'Fonte Inversora de Solda', 'Cabeçote 250A Trifásico', TO_DATE('16/08/1981','dd/mm/yyyy'), TO_DATE('28/05/1994','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (19, 'Máquina de Solda', '150A 110V', TO_DATE('24/11/1979','dd/mm/yyyy'), TO_DATE('24/11/1998','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (20, 'Máquina de Solda', 'MIG130 MIG/MAG0', TO_DATE('17/10/1970','dd/mm/yyyy'), TO_DATE('20/02/1984','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (21, 'Máquina de Solda', '150A 220V WORKER-1002', TO_DATE('06/04/1999','dd/mm/yyyy'), TO_DATE('21/09/2002','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (22, 'Máquina de Solda', '150A 220V WORKER-1548', TO_DATE('19/04/1965','dd/mm/yyyy'), TO_DATE('26/01/1975','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (23, 'Regulador de Oxigênio', 'OMEGA-0250123456', TO_DATE('28/01/1952','dd/mm/yyyy'), TO_DATE('08/11/1974','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (24, 'Regulador de Oxigênio', 'OMEGA-0250910008', TO_DATE('22/11/1975','dd/mm/yyyy'), TO_DATE('08/03/1984','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (25, 'Regulador de Oxigênio', 'OHM-1203601708', TO_DATE('19/05/1994','dd/mm/yyyy'), TO_DATE('22/08/2015','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (26, 'Regulador de Oxigênio', 'OHM-7548928874', TO_DATE('11/11/2004','dd/mm/yyyy'), TO_DATE('07/12/2010','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (27, 'Máquina de Solda', 'MIG130 MIG/MAG', TO_DATE('10/02/1999','dd/mm/yyyy'), TO_DATE('13/12/2014','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (28, 'Máquina de Solda', 'MIG130 MIG/MAG 220V', TO_DATE('29/08/1955','dd/mm/yyyy'), TO_DATE('07/01/1967','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (29, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('05/04/1975','dd/mm/yyyy'), TO_DATE('06/07/1984','dd/mm/yyyy'));
+insert into equipamentos (id, nome_equipamento, tipo, data_uso_inicio, data_uso_termino) values (30, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('06/06/1982','dd/mm/yyyy'), TO_DATE('15/11/1993','dd/mm/yyyy'));
 
 /* compras_equipamentos */
 
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (2, 1, 06234438765);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (3, 1, 88140983799);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (2, 1, 90752904834);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (1, 1, 84865465963);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (10, 4, 73235295212);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (9, 3, 88838233153);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (8, 3, 57424468667);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (7, 3, 94183732742);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (4, 2, 42025593625);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (5, 2, 31988589642);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (15, 5, 97268251891);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (25, 9, 57158935832);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (23, 8, 80817022099);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (12, 4, 99053717997);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (17, 6, 25104679287);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (30, 10, 28328322904);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (25, 9, 44160467456);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (7, 3, 79859148466);
-insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (28, 10, 04910256448);
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (2, 1, '06234438765');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (3, 1, '88140983799');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (2, 1, '90752904834');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (1, 1, '84865465963');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (10, 4, '73235295212');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (9, 3, '88838233153');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (8, 3, '57424468667');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (7, 3, '94183732742');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (4, 2, '42025593625');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (5, 2, '31988589642');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (15, 5, '97268251891');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (25, 9, '57158935832');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (23, 8, '80817022099');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (12, 4, '99053717997');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (17, 6, '25104679287');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (30, 10, '28328322904');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (25, 9, '44160467456');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (7, 3, '79859148466');
+insert into compras_equipamentos (equipamento_id, setor_id, funcionario_cpf) values (28, 10, '04910256448');
 
 /* manutencoes_equipamentos */
 
@@ -388,13 +388,13 @@ insert into manutencoes_equipamentos (equipamento_id, data, situacao) values (30
 
 /* solicitacoes_projetos */
 
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (1, 6686256566744014, 32771001010862, TO_DATE('24/07/1975','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (2, 3483008998238951, 75721366166563, TO_DATE('06/09/2004','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (3, 1858278084503792, 35480432803963, TO_DATE('05/01/2008','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (4, 2058105563559733, 40824079424045, TO_DATE('21/07/1989','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (5, 3010386456443800, 50997772767181, TO_DATE('24/11/1987','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (6, 6894233464033459, 61841660367260, TO_DATE('13/03/2009','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (7, 3977665514774184, 57290869110659, TO_DATE('18/05/2001','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (8, 4709306226415695, 26990196975153, TO_DATE('30/03/2013','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (9, 7663040196268442, 94395785501995, TO_DATE('26/07/1985','dd/mm/yyyy'));
-insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (10, 5560728405647844, 46168389687831, TO_DATE('07/07/1964','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (1, '6686256566744014', '32771001010862', TO_DATE('24/07/1975','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (2, '3483008998238951', '75721366166563', TO_DATE('06/09/2004','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (3, '1858278084503792', '35480432803963', TO_DATE('05/01/2008','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (4, '2058105563559733', '40824079424045', TO_DATE('21/07/1989','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (5, '3010386456443800', '50997772767181', TO_DATE('24/11/1987','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (6, '6894233464033459', '61841660367260', TO_DATE('13/03/2009','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (7, '3977665514774184', '57290869110659', TO_DATE('18/05/2001','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (8, '4709306226415695', '26990196975153', TO_DATE('30/03/2013','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (9, '7663040196268442', '94395785501995', TO_DATE('26/07/1985','dd/mm/yyyy'));
+insert into solicitacoes_projetos (projeto_id, embarcacao_certificado, cliente_cnpj, data) values (10,'5560728405647844', '46168389687831', TO_DATE('07/07/1964','dd/mm/yyyy'));

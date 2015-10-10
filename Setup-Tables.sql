@@ -1,24 +1,24 @@
 /* Drops */
 
-DROP TABLE funcionarios;
-DROP TABLE telefones_funcionarios;
-DROP TABLE enderecos_funcionarios;
-DROP TABLE clientes;
-DROP TABLE representantes;
-DROP TABLE telefones_clientes;
-DROP TABLE enderecos_clientes;
-DROP TABLE embarcacoes;
-DROP TABLE especificacoes;
-DROP TABLE responsaveis_setores;
-DROP TABLE setores;
-DROP TABLE projetos;
-DROP TABLE projetos_criacoes;
-DROP TABLE projetos_restauracoes;
-DROP TABLE execucoes_projetos;
-DROP TABLE solicitacoes_projetos;
-DROP TABLE equipamentos;
-DROP TABLE compras_equipamentos;
-DROP TABLE manutencoes_equipamentos;
+DROP TABLE funcionarios FORCE;
+DROP TABLE telefones_funcionarios FORCE;
+DROP TABLE enderecos_funcionarios FORCE;
+DROP TABLE clientes FORCE;
+DROP TABLE representantes FORCE;
+DROP TABLE telefones_clientes FORCE;
+DROP TABLE enderecos_clientes FORCE;
+DROP TABLE embarcacoes FORCE;
+DROP TABLE especificacoes FORCE;
+DROP TABLE responsaveis_setores FORCE;
+DROP TABLE setores FORCE;
+DROP TABLE projetos FORCE;
+DROP TABLE projetos_criacoes FORCE;
+DROP TABLE projetos_restauracoes FORCE;
+DROP TABLE execucoes_projetos FORCE;
+DROP TABLE solicitacoes_projetos FORCE;
+DROP TABLE equipamentos FORCE;
+DROP TABLE compras_equipamentos FORCE;
+DROP TABLE manutencoes_equipamentos FORCE;
 
 /* Creates */
 
@@ -32,6 +32,7 @@ CREATE TABLE funcionarios (
   CONSTRAINT funcionario_cpf_super_fk FOREIGN KEY (cpf_super) REFERENCES funcionarios (cpf)
 );
 
+
 CREATE TABLE telefones_funcionarios (
   funcionario_cpf VARCHAR2(11) NOT NULL,
   fone VARCHAR2(20) NOT NULL,
@@ -44,6 +45,7 @@ CREATE TABLE enderecos_funcionarios (
   descricao VARCHAR2(50) NOT NULL,
   CONSTRAINT endereco_funcionario_cpf_fk FOREIGN KEY (funcionario_cpf) REFERENCES funcionarios (cpf)
 );
+
 
 CREATE TABLE clientes (
   cnpj VARCHAR2(15),
@@ -113,16 +115,18 @@ CREATE TABLE projetos (
 );
 
 CREATE TABLE projetos_criacoes (
-  id INTEGER,
+  id_projeto INTEGER,
   modelagem VARCHAR2(50) NOT NULL,
-  CONSTRAINT projetos_criacoes_pk PRIMARY KEY (id)
+  CONSTRAINT projetos_criacoes_pk PRIMARY KEY (id_projeto),
+  CONSTRAINT projetos_criacoes_fk FOREIGN KEY (id_projeto) REFERENCES projetos (id)
 );
 
 CREATE TABLE projetos_restauracoes (
-  id INTEGER,
+  id_projeto INTEGER,
   partes_reutilizadas INTEGER,
   partes_descartadas INTEGER,
-  CONSTRAINT projetos_restauracoes_pk PRIMARY KEY (id)
+  CONSTRAINT projetos_restauracoes_pk PRIMARY KEY (id_projeto),
+  CONSTRAINT projetos_restauracoes_fk FOREIGN KEY (id_projeto) REFERENCES projetos (id)
 );
 
 CREATE TABLE responsaveis_setores (
@@ -157,9 +161,7 @@ CREATE TABLE equipamentos (
   tipo VARCHAR2(50),
   data_uso_inicio DATE,
   data_uso_termino DATE,
-  setor_ID INTEGER NOT NULL,
-  CONSTRAINT equipamento_pk PRIMARY KEY (id),
-  CONSTRAINT equipmanento_setor_id_fk FOREIGN KEY (setor_id) REFERENCES setores (id)
+  CONSTRAINT equipamento_pk PRIMARY KEY (id)
 );
 
 CREATE TABLE compras_equipamentos (
