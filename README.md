@@ -2,7 +2,7 @@
 
 Set of documents and scripts from the Databases (_Gerenciamento de Dados e Informação_, in pt-BR) discipline for Computer Science students at [CIn/UFPE] in the semester of 2015.2, by [Prof. Fernando Fonseca].
 
-The discipline is pretty much all about SQL (and PL/SQL) and we are expected to work with [Oracle Database 11g].
+The discipline is pretty much all about SQL (and PL/SQL) and we are expected to work with [Oracle Database 11g]. Students are also expected to use Oracle's native IDE: SQL Plus.
 
 ## Usage
 
