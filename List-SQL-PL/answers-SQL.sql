@@ -19,13 +19,20 @@ SELECT COUNT(*) FROM embarcacoes WHERE capacidade_carga BETWEEN 50.000 AND 100.0
 CREATE USER novo_usuario IDENTIFIED BY quero_passar_direto;
 GRANT SELECT ON funcionarios TO novo_usuario;
 
+-- 7
+-- status: pending
+SELECT CL.site, REP.nome
+FROM clientes CL, representantes REP
+WHERE REP.empresa_cnpj = CL.cnpj
+AND CL.site LIKE '%com' OR CL.site LIKE '%com.br'
+
 -- 9
 -- status: pending
 SELECT
   MAX(SumPesos)
 FROM (
-  SELECT SUM(peso) as SumPesos, certificado
-  FROM especificacoes, embarcacoes
-  WHERE certificado_embarcacao = certificado
-  GROUP BY tipo
+  SELECT SUM(ESP.peso) as SumPesos, EMB.tipo
+  FROM especificacoes ESP, embarcacoes EMB
+  WHERE ESP.certificado_embarcacao = EMB.certificado
+  GROUP BY EMB.tipo
 )
