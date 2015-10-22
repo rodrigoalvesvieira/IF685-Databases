@@ -143,7 +143,6 @@ CREATE TABLE execucoes_projetos (
   CONSTRAINT execucao_projeto_projeto_id_fk FOREIGN KEY (projeto_id) REFERENCES projetos (id)
 );
 
-
 CREATE TABLE solicitacoes_projetos (
   projeto_id INTEGER NOT NULL,
   embarcacao_certificado VARCHAR2(50) NOT NULL,
@@ -153,7 +152,6 @@ CREATE TABLE solicitacoes_projetos (
   CONSTRAINT solicitacao_proj_embarcacao_fk FOREIGN KEY (embarcacao_certificado) REFERENCES embarcacoes (certificado),
   CONSTRAINT solicitacao_proj_cliente_fk FOREIGN KEY (cliente_cnpj) REFERENCES clientes (cnpj)
 );
-
 
 CREATE TABLE equipamentos (
   id INTEGER,

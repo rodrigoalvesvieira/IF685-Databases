@@ -42,7 +42,11 @@ GROUP BY E.tipo
 HAVING COUNT(CE.equipamento_id) >= 2;
 
 -- 6
--- status: pending
+-- status: accepted
+SELECT PJ.nome, ESP.comprimento, SOPJ.data FROM projetos PJ INNER JOIN solicitacoes_projetos SOPJ ON PJ.id = SOPJ.projeto_id INNER JOIN embarcacoes EMB ON SOPJ.embarcacao_certificado = EMB.certificado
+INNER JOIN especificacoes ESP ON EMB.certificado = ESP.certificado_embarcacao WHERE ESP.comprimento > ALL
+(SELECT ESP2.comprimento from especificacoes ESP2 INNER JOIN embarcacoes EMB2 ON ESP2.certificado_embarcacao = EMB2.certificado AND EMB2.tipo = 'VLCC');
+
 SELECT PJ.nome, ESP.comprimento, SOPJ.data
 FROM projetos PJ, especificacoes ESP, solicitacoes_projetos SOPJ, embarcacoes EMB
 WHERE
@@ -59,17 +63,11 @@ FROM clientes CL
 INNER JOIN representantes REP ON CL.cnpj = REP.empresa_cnpj
 WHERE CL.site LIKE '%.com' OR CL.site LIKE '%.com.br';
 
---8
-SELECT f.nome, s.descricao, e.nome_equipamento, e.data_uso_inicio, e.data_uso_termino
-FROM equipamentos e
-INNER JOIN compras_equipamentos ce
-ON ce.equipamento_id=e.id
-RIGHT OUTER JOIN responsaveis_setores rs
-ON rs.funcionario_cpf=ce.funcionario_cpf
-INNER JOIN funcionarios f
-ON f.cpf=rs.funcionario_cpf
-INNER JOIN setores s
-ON s.id=rs.setor_id;
+-- 8
+-- status: accepted
+SELECT F.nome, S.descricao, E.nome_equipamento, E.data_uso_inicio, E.data_uso_termino FROM funcionarios F
+LEFT JOIN compras_equipamentos C ON F.cpf = C.funcionario_cpf
+LEFT JOIN setores S ON C.setor_id = S.id LEFT JOIN equipamentos E ON C.equipamento_id = E.id;
 
 -- 9
 -- status: accepted
