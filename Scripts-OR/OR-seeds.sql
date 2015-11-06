@@ -1,3 +1,11 @@
+/*
+
+Rodrigo Alves & Eduardo Trindade
+
+Aqui é nois! Paulista represented! hue
+
+*/
+
 /* tb_funcionarios */
 
 INSERT INTO tb_funcionarios VALUES ('06234438765', 'Walter White', TO_DATE('30/03/2014','dd/mm/yyyy'), TO_DATE('13/04/1976','dd/mm/yyyy'), NULL);
