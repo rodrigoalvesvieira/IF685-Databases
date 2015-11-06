@@ -1,4 +1,4 @@
-/* Drops types */
+/* Drop types */
 
 DROP TYPE tp_funcionarios FORCE;
 DROP TYPE tp_telefone FORCE;
@@ -79,13 +79,13 @@ CREATE OR REPLACE TYPE tp_embarcacoes AS object(
 /
 
 CREATE OR REPLACE TYPE tp_especificacoes AS object(
+  certificado_embarcacao REF tp_embarcacoes
   versao DECIMAL(5, 2),
   peso DECIMAL(6, 3),
   comprimento DECIMAL(5, 3),
   altura DECIMAL(5, 3),
   capacidade_ocupantes INTEGER,
-  capacidade_carga DECIMAL(5, 3),
-  certificado_embarcacao REF tp_embarcacoes
+  capacidade_carga DECIMAL(5, 3)
 );
 /
 

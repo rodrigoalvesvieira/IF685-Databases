@@ -73,7 +73,7 @@ CREATE TABLE tb_projetos_criacoes OF tp_projetos_criacoes (
   id PRIMARY KEY
 );
 
-CREATE TABLE projetos_restauracoes OF tp_projetos_restauracoes (
+CREATE TABLE tb_projetos_restauracoes OF tp_projetos_restauracoes (
   id PRIMARY KEY
 );
 
