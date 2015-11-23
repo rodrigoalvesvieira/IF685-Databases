@@ -22,15 +22,6 @@ DROP TYPE tp_manutencoes_equipamentos FORCE;
 
 /* Create types */
 
-CREATE OR REPLACE TYPE tp_funcionarios AS object (
-  cpf VARCHAR2(11),
-  nome VARCHAR2(50),
-  data_admissao DATE,
-  data_nascimento DATE,
-  cpf_super REF tp_funcionarios
-);
-/
-
 CREATE OR REPLACE TYPE tp_telefone AS object(
   numero VARCHAR(15)
 );
@@ -39,6 +30,17 @@ CREATE OR REPLACE TYPE tp_telefone AS object(
 CREATE OR REPLACE TYPE tp_telefones_funcionarios AS VARRAY(5) OF tp_telefone;
 /
 
+CREATE OR REPLACE TYPE tp_funcionarios AS object (
+  cpf VARCHAR2(11),
+  nome VARCHAR2(50),
+  data_admissao DATE,
+  data_nascimento DATE,
+  telefones tp_telefones_funcionarios,
+  cpf_super REF tp_funcionarios
+);
+/
+
+
 CREATE OR REPLACE TYPE tp_enderecos_funcionarios AS object(
   funcionario_cpf REF tp_funcionarios,
   cep VARCHAR2(8),
@@ -46,11 +48,15 @@ CREATE OR REPLACE TYPE tp_enderecos_funcionarios AS object(
 );
 /
 
+CREATE TYPE tp_nt_telefones_clientes AS TABLE OF tp_telefone;
+/
+
 CREATE OR REPLACE TYPE tp_clientes AS object (
   cnpj VARCHAR2(15),
   nome_empresa VARCHAR2(50),
   email VARCHAR2(50),
-  site VARCHAR2(50)
+  site VARCHAR2(50),
+  telefones tp_nt_telefones_clientes
 );
 /
 
@@ -61,8 +67,6 @@ CREATE OR REPLACE TYPE tp_representantes AS object (
 );
 /
 
-CREATE TYPE tp_nt_telefones_clientes AS TABLE OF tp_telefone;
-/
 
 CREATE OR REPLACE TYPE tp_enderecos_clientes AS object (
   cliente_cnpj REF tp_clientes,
@@ -79,7 +83,7 @@ CREATE OR REPLACE TYPE tp_embarcacoes AS object(
 /
 
 CREATE OR REPLACE TYPE tp_especificacoes AS object(
-  certificado_embarcacao REF tp_embarcacoes
+  certificado_embarcacao REF tp_embarcacoes,
   versao DECIMAL(5, 2),
   peso DECIMAL(6, 3),
   comprimento DECIMAL(5, 3),

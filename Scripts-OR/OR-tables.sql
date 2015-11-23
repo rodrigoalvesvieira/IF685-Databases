@@ -27,10 +27,11 @@ CREATE TABLE tb_funcionarios OF tp_funcionarios (
   cpf_super WITH ROWID REFERENCES tb_funcionarios
 );
 
-CREATE TABLE tb_telefones_funcionarios (
+/*CREATE TABLE tb_telefones_funcionarios (
   funcionario_cpf REF tp_funcionarios,
   lista_fones tp_telefones_funcionarios
 );
+*/
 
 CREATE TABLE tb_enderecos_funcionarios OF tp_enderecos_funcionarios (
   cep PRIMARY KEY,
@@ -38,13 +39,15 @@ CREATE TABLE tb_enderecos_funcionarios OF tp_enderecos_funcionarios (
 );
 
 CREATE TABLE tb_clientes OF tp_clientes (
-  cnpj PRIMARY KEY
-);
+  cnpj PRIMARY KEY)
+  NESTED TABLE telefones STORE AS telefones_clientes;
 
+/*
 CREATE TABLE tb_telefones_clientes (
   cliente_cnpj REF tp_clientes,
   lista_fones tp_nt_telefones_clientes
 ) nested TABLE lista_fones store AS nt_lista_fones;
+*/
 
 CREATE TABLE tb_representantes OF tp_representantes (
   cpf_representante PRIMARY KEY,

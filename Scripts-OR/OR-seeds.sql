@@ -1,47 +1,45 @@
 /*
-
 Rodrigo Alves & Eduardo Trindade
-
 Aqui é nois! Paulista represented! hue
-
 */
 
 /* tb_funcionarios */
 
-INSERT INTO tb_funcionarios VALUES ('06234438765', 'Walter White', TO_DATE('30/03/2014','dd/mm/yyyy'), TO_DATE('13/04/1976','dd/mm/yyyy'), NULL);
-INSERT INTO tb_funcionarios VALUES ('88140983799', 'Jesse Pinkman', TO_DATE('08/02/1966','dd/mm/yyyy'), TO_DATE('15/06/1931','dd/mm/yyyy'), NULL);
-INSERT INTO tb_funcionarios VALUES ('90752904834', 'Todd Price', TO_DATE('28/11/2008', 'dd/mm/yyyy'), TO_DATE('29/11/1962', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('84865465963', 'Laura Thompson', TO_DATE('20/07/1960', 'dd/mm/yyyy'), TO_DATE('07/10/1934', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('73235295212', 'Nancy Greene', TO_DATE('01/08/1962', 'dd/mm/yyyy'), TO_DATE('01/12/1939', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('88838233153', 'Richard Palmer', TO_DATE('07/09/1971', 'dd/mm/yyyy'), TO_DATE('06/02/1949', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('57424468667', 'Irene Nelson', TO_DATE('21/10/1992', 'dd/mm/yyyy'), TO_DATE('09/02/1932', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('94183732742', 'Craig Marshall', TO_DATE('30/09/1981', 'dd/mm/yyyy'), TO_DATE('24/08/1951', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('42025593625', 'Dennis Morrison', TO_DATE('28/01/2005', 'dd/mm/yyyy'), TO_DATE('24/03/1951', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('31988589642', 'Earl Jenkins', TO_DATE('24/05/2007', 'dd/mm/yyyy'), TO_DATE('07/11/1982', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('97268251891', 'Lois Davis', TO_DATE('28/06/1992', 'dd/mm/yyyy'), TO_DATE('24/07/1967', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('57158935832', 'Evelyn Banks', TO_DATE('22/02/2009', 'dd/mm/yyyy'), TO_DATE('24/11/1988', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('80817022099', 'Elizabeth Ortiz', TO_DATE('14/07/1988', 'dd/mm/yyyy'), TO_DATE('14/01/1953', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('99053717997', 'Eugene Jenkins', TO_DATE('01/10/1980', 'dd/mm/yyyy'), TO_DATE('06/09/1946', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('52806078197', 'Kathleen Baker', TO_DATE('24/10/1986', 'dd/mm/yyyy'), TO_DATE('11/01/1952', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('93366940787', 'Richard Mason', TO_DATE('07/05/1974', 'dd/mm/yyyy'), TO_DATE('17/09/1930', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('19392779618', 'Bruce Hicks', TO_DATE('11/09/1995', 'dd/mm/yyyy'), TO_DATE('02/08/1971', 'dd/mm/yyyy'),     (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('66886800515', 'Jessica Rogers', TO_DATE('10/12/1996', 'dd/mm/yyyy'), TO_DATE('23/10/1955', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('90746704523', 'Aaron Marshall', TO_DATE('21/03/2004', 'dd/mm/yyyy'), TO_DATE('24/06/1980', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('48671138077', 'Christopher Day', TO_DATE('16/02/1980', 'dd/mm/yyyy'), TO_DATE('13/04/1962', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('09677549050', 'Joseph Lewis', TO_DATE('18/12/2015', 'dd/mm/yyyy'), TO_DATE('31/07/1995', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('25104679287', 'Andrew Barnes', TO_DATE('26/04/1970', 'dd/mm/yyyy'), TO_DATE('10/04/1948', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
-INSERT INTO tb_funcionarios VALUES ('55223845862', 'Bruce Gilbert', TO_DATE('28/02/1984', 'dd/mm/yyyy'), TO_DATE('27/09/1945', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('14400581772', 'Philip Howell', TO_DATE('28/06/1967', 'dd/mm/yyyy'), TO_DATE('07/08/1948', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('16629828403', 'Antonio Hunt', TO_DATE('22/02/2004', 'dd/mm/yyyy'), TO_DATE('20/10/1931', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('28328322904', 'Evelyn Andrews', TO_DATE('20/09/2013', 'dd/mm/yyyy'), TO_DATE('12/10/1944', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('77206501260', 'Paul Smith', TO_DATE('04/05/1994', 'dd/mm/yyyy'), TO_DATE('23/06/1948', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('12230884090', 'Willie Jackson', TO_DATE('20/09/2000', 'dd/mm/yyyy'), TO_DATE('11/12/1972', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('10705340017', 'Patrick Reid', TO_DATE('02/08/1995', 'dd/mm/yyyy'), TO_DATE('25/07/1962', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('44160467456', 'Angela Carroll', TO_DATE('20/08/2000', 'dd/mm/yyyy'), TO_DATE('27/05/1937', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
-INSERT INTO tb_funcionarios VALUES ('79859148466', 'Paul Nguyen', TO_DATE('20/01/2005', 'dd/mm/yyyy'), TO_DATE('04/12/1973', 'dd/mm/yyyy'), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('06234438765', 'Walter White', TO_DATE('30/03/2014','dd/mm/yyyy'), TO_DATE('13/04/1976','dd/mm/yyyy'), tp_telefones_funcionarios(tp_telefone('73-955851930')), NULL);
+INSERT INTO tb_funcionarios VALUES ('88140983799', 'Jesse Pinkman', TO_DATE('08/02/1966','dd/mm/yyyy'), TO_DATE('15/06/1931','dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('86-544220923')),  NULL);
+INSERT INTO tb_funcionarios VALUES ('90752904834', 'Todd Price', TO_DATE('28/11/2008', 'dd/mm/yyyy'), TO_DATE('29/11/1962', 'dd/mm/yyyy'),   tp_telefones_funcionarios(tp_telefone('67-593225915')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('84865465963', 'Laura Thompson', TO_DATE('20/07/1960', 'dd/mm/yyyy'), TO_DATE('07/10/1934', 'dd/mm/yyyy'), tp_telefones_funcionarios(tp_telefone('30-966035845')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('73235295212', 'Nancy Greene', TO_DATE('01/08/1962', 'dd/mm/yyyy'), TO_DATE('01/12/1939', 'dd/mm/yyyy'),   tp_telefones_funcionarios(tp_telefone('12-305231025')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('88838233153', 'Richard Palmer', TO_DATE('07/09/1971', 'dd/mm/yyyy'), TO_DATE('06/02/1949', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('58-128915989')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('57424468667', 'Irene Nelson', TO_DATE('21/10/1992', 'dd/mm/yyyy'), TO_DATE('09/02/1932', 'dd/mm/yyyy'),    tp_telefones_funcionarios(tp_telefone('69-089661833')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('94183732742', 'Craig Marshall', TO_DATE('30/09/1981', 'dd/mm/yyyy'), TO_DATE('24/08/1951', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('01-082838113')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('42025593625', 'Dennis Morrison', TO_DATE('28/01/2005', 'dd/mm/yyyy'), TO_DATE('24/03/1951', 'dd/mm/yyyy'), tp_telefones_funcionarios(tp_telefone('10-716206606')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('31988589642', 'Earl Jenkins', TO_DATE('24/05/2007', 'dd/mm/yyyy'), TO_DATE('07/11/1982', 'dd/mm/yyyy'),    tp_telefones_funcionarios(tp_telefone('49-576866426')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('97268251891', 'Lois Davis', TO_DATE('28/06/1992', 'dd/mm/yyyy'), TO_DATE('24/07/1967', 'dd/mm/yyyy'),      tp_telefones_funcionarios(tp_telefone('59-019463948')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('57158935832', 'Evelyn Banks', TO_DATE('22/02/2009', 'dd/mm/yyyy'), TO_DATE('24/11/1988', 'dd/mm/yyyy'),    tp_telefones_funcionarios(tp_telefone('83-493926329')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('80817022099', 'Elizabeth Ortiz', TO_DATE('14/07/1988', 'dd/mm/yyyy'), TO_DATE('14/01/1953', 'dd/mm/yyyy'), tp_telefones_funcionarios(tp_telefone('64-874254541')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('99053717997', 'Eugene Jenkins', TO_DATE('01/10/1980', 'dd/mm/yyyy'), TO_DATE('06/09/1946', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('97-174478839')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('52806078197', 'Kathleen Baker', TO_DATE('24/10/1986', 'dd/mm/yyyy'), TO_DATE('11/01/1952', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('06-915249410')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('93366940787', 'Richard Mason', TO_DATE('07/05/1974', 'dd/mm/yyyy'), TO_DATE('17/09/1930', 'dd/mm/yyyy'),   tp_telefones_funcionarios(tp_telefone('11-653120573')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('19392779618', 'Bruce Hicks', TO_DATE('11/09/1995', 'dd/mm/yyyy'), TO_DATE('02/08/1971', 'dd/mm/yyyy'),     tp_telefones_funcionarios(tp_telefone('47-775980291')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('66886800515', 'Jessica Rogers', TO_DATE('10/12/1996', 'dd/mm/yyyy'), TO_DATE('23/10/1955', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('33-158219829')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('90746704523', 'Aaron Marshall', TO_DATE('21/03/2004', 'dd/mm/yyyy'), TO_DATE('24/06/1980', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('42-572442986')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('48671138077', 'Christopher Day', TO_DATE('16/02/1980', 'dd/mm/yyyy'), TO_DATE('13/04/1962', 'dd/mm/yyyy'), tp_telefones_funcionarios(tp_telefone('23-474682320')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('09677549050', 'Joseph Lewis', TO_DATE('18/12/2015', 'dd/mm/yyyy'), TO_DATE('31/07/1995', 'dd/mm/yyyy'),    tp_telefones_funcionarios(tp_telefone('38-083558365')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('25104679287', 'Andrew Barnes', TO_DATE('26/04/1970', 'dd/mm/yyyy'), TO_DATE('10/04/1948', 'dd/mm/yyyy'),   tp_telefones_funcionarios(tp_telefone('74-739842145')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='06234438765'));
+INSERT INTO tb_funcionarios VALUES ('55223845862', 'Bruce Gilbert', TO_DATE('28/02/1984', 'dd/mm/yyyy'), TO_DATE('27/09/1945', 'dd/mm/yyyy'),   tp_telefones_funcionarios(tp_telefone('72-689677057')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('14400581772', 'Philip Howell', TO_DATE('28/06/1967', 'dd/mm/yyyy'), TO_DATE('07/08/1948', 'dd/mm/yyyy'),   tp_telefones_funcionarios(tp_telefone('11-184057062')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('16629828403', 'Antonio Hunt', TO_DATE('22/02/2004', 'dd/mm/yyyy'), TO_DATE('20/10/1931', 'dd/mm/yyyy'),    tp_telefones_funcionarios(tp_telefone('38-451129023')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('28328322904', 'Evelyn Andrews', TO_DATE('20/09/2013', 'dd/mm/yyyy'), TO_DATE('12/10/1944', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('34-576510381')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('77206501260', 'Paul Smith', TO_DATE('04/05/1994', 'dd/mm/yyyy'), TO_DATE('23/06/1948', 'dd/mm/yyyy'),      tp_telefones_funcionarios(tp_telefone('99-357419494')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('12230884090', 'Willie Jackson', TO_DATE('20/09/2000', 'dd/mm/yyyy'), TO_DATE('11/12/1972', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('44-563702997')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('10705340017', 'Patrick Reid', TO_DATE('02/08/1995', 'dd/mm/yyyy'), TO_DATE('25/07/1962', 'dd/mm/yyyy'),    tp_telefones_funcionarios(tp_telefone('24-567714659')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('44160467456', 'Angela Carroll', TO_DATE('20/08/2000', 'dd/mm/yyyy'), TO_DATE('27/05/1937', 'dd/mm/yyyy'),  tp_telefones_funcionarios(tp_telefone('79-496267747')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
+INSERT INTO tb_funcionarios VALUES ('79859148466', 'Paul Nguyen', TO_DATE('20/01/2005', 'dd/mm/yyyy'), TO_DATE('04/12/1973', 'dd/mm/yyyy'),     tp_telefones_funcionarios(tp_telefone('52-016256469')), (SELECT REF(S) FROM tb_funcionarios S WHERE cpf='88140983799'));
 
 /* tb_telefones_funcionarios */
 
+/*
 INSERT INTO tb_telefones_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionarios s WHERE cpf='90752904834'), tp_telefones_funcionarios(tp_telefone('73-955851930')));
 INSERT INTO tb_telefones_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionarios s WHERE cpf='88140983799'), tp_telefones_funcionarios(tp_telefone('86-544220923')));
 INSERT INTO tb_telefones_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionarios s WHERE cpf='06234438765'), tp_telefones_funcionarios(tp_telefone('67-593225915')));
@@ -79,6 +77,7 @@ INSERT INTO tb_telefones_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionario
 INSERT INTO tb_telefones_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionarios s WHERE cpf='92346383395'), tp_telefones_funcionarios(tp_telefone('07-585280716')));
 INSERT INTO tb_telefones_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionarios s WHERE cpf='13574644097'), tp_telefones_funcionarios(tp_telefone('67-800006041')));
 INSERT INTO tb_telefones_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionarios s WHERE cpf='92496388053'), tp_telefones_funcionarios(tp_telefone('00-212047640')));
+*/
 
 /* enderecos_funcionarios */
 
@@ -105,6 +104,7 @@ INSERT INTO tb_enderecos_funcionarios VALUES ((SELECT REF(s) FROM tb_funcionario
 
 /* telefones_clientes */
 
+/*
 INSERT INTO tb_telefones_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='32771001010862'), tp_nt_telefones_clientes(tp_telefone('1097112736')));
 INSERT INTO tb_telefones_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='74023615300569'), tp_nt_telefones_clientes(tp_telefone('1098522898')));
 INSERT INTO tb_telefones_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='35480432803963'), tp_nt_telefones_clientes(tp_telefone('1099631901')));
@@ -120,6 +120,26 @@ INSERT INTO tb_telefones_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHER
 INSERT INTO tb_telefones_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='26990196975153'), tp_nt_telefones_clientes(tp_telefone('1097208407')));
 INSERT INTO tb_telefones_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='94395785501995'), tp_nt_telefones_clientes(tp_telefone('1097195017')));
 INSERT INTO tb_telefones_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='46168389687831'), tp_nt_telefones_clientes(tp_telefone('1099685226')));
+*/
+
+/* tb_clientes */
+
+INSERT INTO tb_clientes VALUES ('32771001010862', 'Petrobras S.A', 'jmendoza0@petrobras.com.br', 'petrobras.com.br', tp_nt_telefones_clientes(tp_telefone('1097112736')));
+INSERT INTO tb_clientes VALUES ('74023615300569', 'Maersk', 'jparker1@maersk.com', 'maersk.com', tp_nt_telefones_clientes(tp_telefone('1098522898')));
+INSERT INTO tb_clientes VALUES ('35480432803963', 'Shell', 'aruiz2@shell.com', 'shell.com', tp_nt_telefones_clientes(tp_telefone('1099631901')));
+INSERT INTO tb_clientes VALUES ('40824079424045', 'Texaco', 'swebb3@texaco.com', 'texaco.com',  tp_nt_telefones_clientes(tp_telefone('1098326714')));
+INSERT INTO tb_clientes VALUES ('50997772767181', 'Hamburg Süd', 'jwilliamson4@usgs.gov', 'oaic.gov.au', tp_nt_telefones_clientes(tp_telefone('1099367308')));
+INSERT INTO tb_clientes VALUES ('61841660367260', 'Vale', 'jcunningham5@vale.com', 'vale.com', tp_nt_telefones_clientes(tp_telefone('1097878759')));
+INSERT INTO tb_clientes VALUES ('49991270192798', 'Esso', 'jmartin6@esso.com', 'esso.com', tp_nt_telefones_clientes(tp_telefone('1098480548')));
+INSERT INTO tb_clientes VALUES ('77016702913997', 'Samarco', 'alawrence7@samarco.com.br', 'samarco.com.br', tp_nt_telefones_clientes(tp_telefone('1098503945')));
+INSERT INTO tb_clientes VALUES ('14010782046701', 'General Motors', 'chawkins8@gm.com', 'gm.com', tp_nt_telefones_clientes(tp_telefone('1099108026')));
+INSERT INTO tb_clientes VALUES ('94405974919694', 'Alunorte', 'cferguson9@alunorte.com.br', 'alunorte.com.br', tp_nt_telefones_clientes(tp_telefone('1098424309')));
+INSERT INTO tb_clientes VALUES ('91913832268294', 'Namisa', 'ebrooksa@namisa.com.br', 'namisa.com.br', tp_nt_telefones_clientes(tp_telefone('1097782276')));
+INSERT INTO tb_clientes VALUES ('57290869110659', 'Alcoa', 'ngreenb@alcoa.com', 'alcoa.com', tp_nt_telefones_clientes(tp_telefone('1098610719')));
+INSERT INTO tb_clientes VALUES ('26990196975153', 'Mitsubishi', 'esanchezc@mitsubishi.com', 'mitsubishi.com', tp_nt_telefones_clientes(tp_telefone('1097208407')));
+INSERT INTO tb_clientes VALUES ('94395785501995', 'Rio Tinto', 'dcunninghamd@riotinto.com', 'riotinto.com',tp_nt_telefones_clientes(tp_telefone('1097195017')));
+INSERT INTO tb_clientes VALUES ('46168389687831', 'BHP Billiton', 'rwarde@bhpbilliton.com', 'bhpbilliton.com', tp_nt_telefones_clientes(tp_telefone('1099685226')));
+
 
 /* enderecos_clientes */
 
@@ -139,41 +159,24 @@ INSERT INTO tb_enderecos_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHER
 INSERT INTO tb_enderecos_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='94395785501995'), '59547171', '901 Oak Street Natchez, MS 39120.');
 INSERT INTO tb_enderecos_clientes VALUES ((SELECT REF(C) FROM tb_clientes C WHERE cnpj='46168389687831'), '59727291', '194 Park Street Belmont, MA 02478.');
 
-/* tb_clientes */
-
-INSERT INTO tb_clientes VALUES ('32771001010862', 'Petrobras S.A', 'jmendoza0@petrobras.com.br', 'petrobras.com.br');
-INSERT INTO tb_clientes VALUES ('74023615300569', 'Maersk', 'jparker1@maersk.com', 'maersk.com');
-INSERT INTO tb_clientes VALUES ('35480432803963', 'Shell', 'aruiz2@shell.com', 'shell.com');
-INSERT INTO tb_clientes VALUES ('40824079424045', 'Texaco', 'swebb3@texaco.com', 'texaco.com');
-INSERT INTO tb_clientes VALUES ('50997772767181', 'Hamburg Süd', 'jwilliamson4@usgs.gov', 'oaic.gov.au');
-INSERT INTO tb_clientes VALUES ('61841660367260', 'Vale', 'jcunningham5@vale.com', 'vale.com');
-INSERT INTO tb_clientes VALUES ('49991270192798', 'Esso', 'jmartin6@esso.com', 'esso.com');
-INSERT INTO tb_clientes VALUES ('77016702913997', 'Samarco', 'alawrence7@samarco.com.br', 'samarco.com.br');
-INSERT INTO tb_clientes VALUES ('14010782046701', 'General Motors', 'chawkins8@gm.com', 'gm.com');
-INSERT INTO tb_clientes VALUES ('94405974919694', 'Alunorte', 'cferguson9@alunorte.com.br', 'alunorte.com.br');
-INSERT INTO tb_clientes VALUES ('91913832268294', 'Namisa', 'ebrooksa@namisa.com.br', 'namisa.com.br');
-INSERT INTO tb_clientes VALUES ('57290869110659', 'Alcoa', 'ngreenb@alcoa.com', 'alcoa.com');
-INSERT INTO tb_clientes VALUES ('26990196975153', 'Mitsubishi', 'esanchezc@mitsubishi.com', 'mitsubishi.com');
-INSERT INTO tb_clientes VALUES ('94395785501995', 'Rio Tinto', 'dcunninghamd@riotinto.com', 'riotinto.com');
-INSERT INTO tb_clientes VALUES ('46168389687831', 'BHP Billiton', 'rwarde@bhpbilliton.com', 'bhpbilliton.com');
 
 /* tb_representantes */
 
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '32771001010862'), '38349206880', 'Roy Hudson');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '74023615300569'), '18760215941', 'Bobby Stephens');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '35480432803963'), '38249379735', 'Jonathan Brooks');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '40824079424045'), '45463712243', 'Paul Harris');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '50997772767181'), '19709817248', 'Mark Brown');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '61841660367260'), '18653207439', 'Jonathan Taylor');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '49991270192798'), '12581666216', 'Eugene Stewart');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '77016702913997'), '21417577784', 'Albert Stephens');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '14010782046701'), '48869558051', 'Jimmy West');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '94405974919694'), '13170275859', 'Heather Mendoza');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '91913832268294'), '45765493189', 'Jose Carr');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '57290869110659'), '15942326847', 'Jose Sims');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '26990196975153'), '42455806504', 'Victor Flores');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '94395785501995'), '44896261080', 'Jonathan Gomez');
-INSERT INTO tb_representantes VALUES ((SELECT REF(M) FROM tb_clientes M WHERE cnpj = '46168389687831'), '38377052223', 'Philip Torres');
+INSERT INTO tb_representantes VALUES ('38349206880', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '32771001010862'), 'Roy Hudson');
+INSERT INTO tb_representantes VALUES ('18760215941', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '74023615300569'), 'Bobby Stephens');
+INSERT INTO tb_representantes VALUES ('38249379735', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '35480432803963'), 'Jonathan Brooks');
+INSERT INTO tb_representantes VALUES ('45463712243', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '40824079424045'), 'Paul Harris');
+INSERT INTO tb_representantes VALUES ('19709817248', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '50997772767181'), 'Mark Brown');
+INSERT INTO tb_representantes VALUES ('18653207439', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '61841660367260'), 'Jonathan Taylor');
+INSERT INTO tb_representantes VALUES ('12581666216', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '49991270192798'), 'Eugene Stewart');
+INSERT INTO tb_representantes VALUES ('21417577784', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '77016702913997'), 'Albert Stephens');
+INSERT INTO tb_representantes VALUES ('48869558051', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '14010782046701'), 'Jimmy West');
+INSERT INTO tb_representantes VALUES ('13170275859', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '94405974919694'), 'Heather Mendoza');
+INSERT INTO tb_representantes VALUES ('45765493189', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '91913832268294'), 'Jose Carr');
+INSERT INTO tb_representantes VALUES ('15942326847', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '57290869110659'), 'Jose Sims');
+INSERT INTO tb_representantes VALUES ('42455806504', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '26990196975153'), 'Victor Flores');
+INSERT INTO tb_representantes VALUES ('44896261080', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '94395785501995'), 'Jonathan Gomez');
+INSERT INTO tb_representantes VALUES ('38377052223', (SELECT REF(M) FROM tb_clientes M WHERE cnpj = '46168389687831'), 'Philip Torres');
 
 /* tb_setores */
 
@@ -227,17 +230,17 @@ INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE
 INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 4), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 4));
 INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 4), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 5));
 INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 5), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 5));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 5), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 6));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 6), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 6));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 6), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 7));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 7), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 7));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 7), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 8));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 8), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 8));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 8), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 9));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 9), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 9));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 9), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 10));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 5), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 1));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 6), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 2));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 6), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 2));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 7), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 3));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 7), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 3));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 8), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 4));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 8), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 4));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 9), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 5));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 9), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 5));
 INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 10), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 1));
-INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 10), (SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 10));
+INSERT INTO tb_execucoes_projetos VALUES ((SELECT REF(M) FROM tb_setores M WHERE id = 10), (SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 2));
 
 /* tb_embarcacoes */
 
@@ -269,11 +272,11 @@ INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_cri
 INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 3), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '1858278084503792'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '35480432803963'), TO_DATE('05/01/2008','dd/mm/yyyy'));
 INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 4), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '2058105563559733'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '40824079424045'), TO_DATE('21/07/1989','dd/mm/yyyy'));
 INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 5), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '3010386456443800'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '50997772767181'), TO_DATE('24/11/1987','dd/mm/yyyy'));
-INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 6), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '6894233464033459'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '61841660367260'), TO_DATE('13/03/2009','dd/mm/yyyy'));
-INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 7), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '3977665514774184'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '57290869110659'), TO_DATE('18/05/2001','dd/mm/yyyy'));
-INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 8), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '4709306226415695'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '26990196975153'), TO_DATE('30/03/2013','dd/mm/yyyy'));
-INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 9), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '7663040196268442'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '94395785501995'), TO_DATE('26/07/1985','dd/mm/yyyy'));
-INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_restauracoes M WHERE id = 10), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '5560728405647844'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '46168389687831'), TO_DATE('07/07/1964','dd/mm/yyyy'));
+INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 1), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '6894233464033459'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '61841660367260'), TO_DATE('13/03/2009','dd/mm/yyyy'));
+INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 2), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '3977665514774184'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '57290869110659'), TO_DATE('18/05/2001','dd/mm/yyyy'));
+INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 3), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '4709306226415695'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '26990196975153'), TO_DATE('30/03/2013','dd/mm/yyyy'));
+INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 4), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '7663040196268442'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '94395785501995'), TO_DATE('26/07/1985','dd/mm/yyyy'));
+INSERT INTO tb_solicitacoes_projetos VALUES ((SELECT REF(M) FROM tb_projetos_criacoes M WHERE id = 5), (SELECT REF(M) FROM tb_embarcacoes M WHERE certificado = '5560728405647844'), (SELECT REF(S) FROM tb_clientes S WHERE cnpj = '46168389687831'), TO_DATE('07/07/1964','dd/mm/yyyy'));
 
 /* tb_especificacoes */
 
@@ -330,6 +333,8 @@ INSERT INTO tb_equipamentos VALUES (27, 'Máquina de Solda', 'MIG130 MIG/MAG', T
 INSERT INTO tb_equipamentos VALUES (28, 'Máquina de Solda', 'MIG130 MIG/MAG 220V', TO_DATE('29/08/1955','dd/mm/yyyy'), TO_DATE('07/01/1967','dd/mm/yyyy'));
 INSERT INTO tb_equipamentos VALUES (29, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('05/04/1975','dd/mm/yyyy'), TO_DATE('06/07/1984','dd/mm/yyyy'));
 INSERT INTO tb_equipamentos VALUES (30, 'Fonte Inversora de Solda', 'DC - 110V BAMBOZZI', TO_DATE('06/06/1982','dd/mm/yyyy'), TO_DATE('15/11/1993','dd/mm/yyyy'));
+
+
 
 /* tb_compras_equipamentos */
 
